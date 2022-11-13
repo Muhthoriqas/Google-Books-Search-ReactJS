@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Google-Books-Search-ReactJS/static/css/main.32c190a6.css",
+    "main.js": "/Google-Books-Search-ReactJS/static/js/main.08baddd5.js",
+    "static/js/787.c84b57a7.chunk.js": "/Google-Books-Search-ReactJS/static/js/787.c84b57a7.chunk.js",
+    "static/media/bg.webp": "/Google-Books-Search-ReactJS/static/media/bg.b0afb41bcb5e58e55ce6.webp",
+    "index.html": "/Google-Books-Search-ReactJS/index.html",
+    "main.32c190a6.css.map": "/Google-Books-Search-ReactJS/static/css/main.32c190a6.css.map",
+    "main.08baddd5.js.map": "/Google-Books-Search-ReactJS/static/js/main.08baddd5.js.map",
+    "787.c84b57a7.chunk.js.map": "/Google-Books-Search-ReactJS/static/js/787.c84b57a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32c190a6.css",
+    "static/js/main.08baddd5.js"
+  ]
+}
