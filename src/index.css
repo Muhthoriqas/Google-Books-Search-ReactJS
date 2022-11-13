@@ -1,13 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700&display=swap");
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-family: "Poppins";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-image {
+  background: url("./assets/bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.filter:after {
+  background-color: rgba(0, 0, 0, 0.4);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.card-title {
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  font-size: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.input {
+  z-index: 10;
+}
+
+.limit {
+  z-index: 10;
+}
+
+.btn-search {
+  background-color: #dca051;
+  color: #fff;
+  border: none;
+}
+
+.input-index {
+  text-align: center;
+}
+.label-result {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 20px;
+}
+.close {
+  border: none;
+  background-color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.close:hover {
+  color: #fff;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.btn-more {
+  background-color: #dca051;
+  font-size: 12px;
+  margin-right: 3px;
+  border: none;
+}
+.btn-link {
+  text-decoration: none;
+  padding: 5px;
+}
+.btn-link:hover {
+  color: #fff;
+  background-color: #dca051;
+  border-radius: 5px;
+}
+
+.tag {
+  align-self: flex-start;
+  padding: 0.25em 0.75em;
+  border-radius: 0.5em;
+  font-size: 0.75rem;
+}
+
+.tag + .tag {
+  margin-left: 0.5em;
+}
+
+.tag-red {
+  background: #cb2d3e;
+  background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+  color: #fafafa;
+}
+
+.tag-brown {
+  background: #d1913c;
+  background: linear-gradient(to bottom, #ffd194, #d1913c);
+  color: #000;
+}
+
+.card-title {
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+.card__footer {
+  display: flex;
+  margin-top: 5px;
+}
+
+.authorName {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.noneAuthor {
+  color: #cb2d3e;
+}
+.noneCategory {
+  color: #cb2d3e;
+  font-weight: 700;
+  font-size: 14px;
+}
+.noneRating {
+  color: #cb2d3e;
+  font-weight: 700;
+  font-size: 14px;
+}
+/* .main-content {
+  height: 100vh;
+} */
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: #cb2d3e !important;
+}
+.input-search.small {
+  display: none;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 998px) {
+  .input-search.large {
+    display: none;
+  }
+  .input-search.small {
+    display: inline-block;
+  }
+  .DD-Toogle {
+    margin-top: 10px;
+    font-size: 20px !important;
+
+    width: 100% !important;
+    border-radius: 10px !important;
+  }
+  .DM-Toogle {
+    width: 100% !important;
+    border-radius: 10px !important;
+  }
+  .DD-Font {
+    font-size: 10px;
+    text-align: center;
+  }
+  .input-search {
+    border-radius: 10px !important;
+    font-size: 21px !important;
+  }
+  .btn-search {
+    margin-top: 10px;
+    width: 100% !important;
+    border-radius: 10px !important;
+  }
+}
+@media (max-width: 450px) {
+  .label-result {
+    font-size: 13px;
+  }
+  .btn-search {
+    margin-top: 10px;
+    width: 100% !important;
+    border-radius: 10px !important;
+  }
+  .DD-Toogle {
+    margin-top: 10px;
+    font-size: 16px !important;
+
+    width: 100% !important;
+    border-radius: 10px !important;
+  }
+  .DM-Toogle {
+    width: 100% !important;
+    border-radius: 10px !important;
+  }
+  .DD-Font {
+    font-size: 10px;
+    text-align: center;
+  }
+  .input-search {
+    border-radius: 10px !important;
+    font-size: 18px !important;
+  }
+
+  .input-search.large {
+    display: none;
+  }
+  .input-search.small {
+    display: inline-block;
+  }
 }
