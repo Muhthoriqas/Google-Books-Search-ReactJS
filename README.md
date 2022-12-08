@@ -3,5 +3,6 @@
 
 # Live Demo: 
 http://muhthoriqas.github.io/Google-Books-Search-ReactJS/
-# Google Books Search
-Google Books API : https://developers.google.com/books/docs/v1/using
+
+# Google Books API : 
+https://developers.google.com/books/docs/v1/using
