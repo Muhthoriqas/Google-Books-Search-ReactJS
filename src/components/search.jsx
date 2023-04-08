@@ -30,7 +30,7 @@ function Search() {
     if (!query.trim()) {
       toast.error("Input Your Book Title  First");
     } else {
-      if (maxResults > 40 || startIndex < 1) {
+      if (maxResults > 40 || maxResults < 1) {
         toast.warn("Max results must be between 1 and 40");
       } else {
         setLoading(true);
