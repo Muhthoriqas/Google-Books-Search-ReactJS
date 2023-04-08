@@ -168,7 +168,7 @@ function Search() {
                   />
                 </FormGroup>
                 <DropdownItem header className="DD-Font">
-                  Start Index of Google Books?
+                  Start Index of Books Hunt?
                 </DropdownItem>
                 <FormGroup>
                   <Label for="startIndex" className="label-result">
