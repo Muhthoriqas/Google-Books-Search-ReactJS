@@ -121,7 +121,7 @@ function Search() {
           className="display-2 text-center text-white mb-3"
           style={{ zIndex: 2, fontWeight: "bolder" }}
         >
-          Google Books
+          Books Hunt
         </h1>
         <div style={{ width: "50%", zIndex: 2 }}>
           <InputGroup size="lg" className="mb-3">
